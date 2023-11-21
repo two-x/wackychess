@@ -18,5 +18,5 @@ function randomValue() {
 }
 
 function randomInterval() {
-  return Math.floor(Math.random() * (10000 - 3000) + 3000);
+  return Math.floor(Math.random() * (3000 - 1000) + 1000);
 }

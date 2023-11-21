@@ -55,6 +55,7 @@ void listDir(fs::FS &fs, const char * dirname, uint8_t levels){
         }
         file = root.openNextFile();
     }
+    Serial.println("- finished listing files");
 }
 void setup() {
     Serial.begin(115200);
